@@ -1,6 +1,3 @@
-Thanks for downloading this theme!
+This is my personal portfolio profile made as a part of Assignment in The Hacking School
 
-Theme Name: DevFolio
-Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-Author: BootstrapMade.com
-Author URL: https://bootstrapmade.com
+www.techpranee.com
