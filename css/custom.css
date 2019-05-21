@@ -1,3 +1,30 @@
-.videobg {
-    overflow: hidden;
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index:1;
+    left:0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+.modalcontent{
+    background-color: black;
+    margin: 20% auto;
+    padding: 20px;
+    width: 70%;
+
+}
+.closeBtn{
+    color: #ccc;
+    float: right;
+    font-size: 30px;
+}
+
+.closeBtn:hover, .closeBtn:focus{
+    color: rebeccapurple;
+    text-decoration: none;
+    cursor: pointer;
 }
