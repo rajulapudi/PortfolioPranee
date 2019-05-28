@@ -1,7 +1,7 @@
 .bat {
     position: absolute;
     margin-top: 50px;
-    left: 40%;
+    left: 45%;
     border: 8px solid black;
     width: 160px;
     height: 320px;
@@ -30,11 +30,9 @@
     font-size: 30px;
     text-align: center;
 }
-.col-md-4 fas {
-    width: 200px;
-}
-.col-md-4 col-xl-3 {
-    height: 100px;
+
+.col-md-4 col-xl-4 {
+    height: 200px;
 }
 .bg-c-blue {
     background: linear-gradient(45deg,#4099ff,#73b4ff);
@@ -54,11 +52,12 @@
     -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
     box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
     border: none;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 
 .card .card-block {
-    padding: 1px;
+    padding: 20px;
+
 }
