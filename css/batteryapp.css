@@ -1,0 +1,14 @@
+.bat {
+    position: absolute;
+    border: 8px solid black;
+    width: 160px;
+    height: 300px;
+    border-radius: 0px;
+}
+.bars {
+    z-index: 0;
+    width: 160px;
+    height: 50px;
+    margin-bottom: 1px;
+    background: green
+}
