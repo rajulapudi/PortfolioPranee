@@ -1,12 +1,12 @@
 window.onload = function() {
 
             function updateBatteryStatus(battery) {
-                document.querySelector('#charging').textContent = battery.charging ? 'CHARGING STATUS : PLUGGED IN' : 'CHARGING STATUS : NOT PLUGGED IN';
+                document.querySelector('#charging').textContent = battery.charging ? 'PLUGGED IN' : 'NOT PLUGGED IN';
 
-                document.querySelector('#level').textContent = "BATTERY LEVEL IS : " + Math.floor(battery.level * 100) + "%";
+                document.querySelector('#level').textContent = Math.floor(battery.level * 100) + "%";
                 
 
-                document.querySelector('#dischargingTime').textContent = "ESTIMATED BATTERY TIME : " + Math.floor(battery.dischargingTime / 3600) + " hrs";
+                document.querySelector('#dischargingTime').textContent =Math.floor(battery.dischargingTime / 3600) + " hrs";
                 if (battery.level >= 0.81){
                     document.getElementById("bar0").style.background="green";
                     document.getElementById("bar1").style.background="green";
