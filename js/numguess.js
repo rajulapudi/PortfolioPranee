@@ -25,9 +25,11 @@ function checkGuess() {
         } else if (guessValue == myNum) {
             document.getElementById("correct").style.display = "block";
             if (i>6){
-                alert("You are a Mastermind");}
+                alert("You are a Mastermind");
+            document.location.reload();}
                 else if (i>4){
                     alert("You are brilliant");
+                    document.location.reload();
                 }
 
 
