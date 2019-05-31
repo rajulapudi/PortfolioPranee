@@ -1,0 +1,61 @@
+
+.rectangle {
+    position: relative;
+    height: 1000px;
+    width: 1618px;
+    background: #555;
+}
+
+#square0 {
+    position: absolute;
+    right:0px;
+    height: 1000px;
+    width: 1000px;
+    background: #fff;
+}
+
+#square1 {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 618px;
+    width: 618px;
+    background: red;
+}
+
+#square2 {
+    position: absolute;
+    top: 0px;
+    left: 236px;
+    height: 382px;
+    width: 382px;
+    background: blue;
+}
+#square3 {
+    position: absolute;
+    top: 146px;
+    height: 236px;
+    width: 236px;
+    background: yellow;
+}
+#square4 {
+    position: absolute;
+    left: 90.2px;
+    height: 146px;
+    width: 146px;
+    background: green;
+}
+#square5 {
+    position: absolute;
+    top: 55.7px;
+    height: 90.2px;
+    width: 90.2px;
+    background: pink;
+}
+#square6 {
+    position: absolute;
+    left: 34.5px;
+    height: 55.7px;
+    width: 55.7px;
+    background: orange;
+}
